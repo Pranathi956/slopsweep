@@ -1,0 +1,6 @@
+# The rule table necessarily contains the very patterns it detects.
+slopsweep/rules.py
+# Test fixtures deliberately contain fake secrets / bad code.
+tests/
+# Intentionally vulnerable demo code.
+examples/
