@@ -1,0 +1,10 @@
+{
+  "name": "slopsweep",
+  "description": "Zero-dependency agent that scans any codebase for security issues, AI slop, coding gaps and loose ends.",
+  "language": "python",
+  "install": "python -m pip install -e .[dev]",
+  "test": "python -m pytest -q",
+  "start": "HOST=0.0.0.0 PORT=8000 python app.py",
+  "port": 8000,
+  "health": "/health"
+}
