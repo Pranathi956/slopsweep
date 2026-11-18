@@ -66,6 +66,4 @@ pip install pytest && pytest -q
 Pattern-based heuristics can produce false positives/negatives — it's a fast first-pass linter,
 not a replacement for a full SAST tool. Deep AST analysis is Python-only; other languages use regex rules.
 
-## License
-
-MIT
+![report](docs/report.png)
